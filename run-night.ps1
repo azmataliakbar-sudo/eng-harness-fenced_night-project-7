@@ -2,7 +2,7 @@ $queue = "attack-queue.txt"
 $log = "log.txt"
 
 if (Test-Path $log) { Remove-Item $log }
-Add-Content -Path $log -Value "# Ratchet Week Night Log"
+Add-Content -Path $log -Value "# Fenced Night Log"
 
 $items = Get-Content $queue | Where-Object { $_ -match '\S' -and $_ -notmatch '^\s*#' }
 

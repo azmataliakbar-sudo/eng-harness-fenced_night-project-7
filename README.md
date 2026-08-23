@@ -1,4 +1,4 @@
-# The Ratchet Week — Harness Engineering Project 7
+# The Fenced Night — Harness Engineering Project 7
 
 ## Project Overview
 
@@ -21,7 +21,7 @@ The queue contains:
 ## Project Structure
 
 ```
-ratchet_week/
+fenced_night/
 ├── .git/
 ├── attack-queue.txt   # items incl. malicious injection
 ├── fence.ps1          # sandbox checks (network, branch)
@@ -34,7 +34,7 @@ ratchet_week/
 ## Test Commands
 
 ```powershell
-cd C:\Projects\eng_harness\ratchet_week
+cd C:\Projects\eng_harness\fenced_night
 .\reset.ps1
 .\run-night.ps1
 ```
@@ -90,7 +90,7 @@ You need both: a wall to stop the attack, and a camera to prove it worked. A sil
 ## Confirmed Test Commands
 
 ```powershell
-cd C:\Projects\eng_harness\ratchet_week
+cd C:\Projects\eng_harness\fenced_night
 .\reset.ps1
 .\run-night.ps1
 ```
